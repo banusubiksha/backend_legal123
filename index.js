@@ -13,8 +13,8 @@ app.use(cors());
 
 // Connect to MongoDB
 mongoose.connect('mongodb://127.0.0.1:27017/123legaldb', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
+  // useNewUrlParser: true,
+  // useUnifiedTopology: true,
 })
 .then(() => console.log('MongoDB connected'))
 .catch(err => console.error('MongoDB connection error:', err));
